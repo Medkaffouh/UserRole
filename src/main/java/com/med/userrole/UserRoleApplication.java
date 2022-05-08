@@ -46,7 +46,7 @@ public class UserRoleApplication {
                 System.out.println(user.getUsername());
                 System.out.println("Roles =>");
                 user.getRoles().forEach(role -> {
-                    System.out.println("Role : "+role);
+                    System.out.println("Role : "+role.toString());
                 });
             }
             catch (Exception exception){
